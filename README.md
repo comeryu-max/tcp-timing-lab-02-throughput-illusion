@@ -94,6 +94,11 @@ Inside the same trace:
 ## 📊 Evidence 2 — Throughput Collapse
 
 ![Serialization Delay Observation](./figures/fig2-throughput-collapse-packet-gap-evidence.svg)  
+Figure: A packet gap event begins at 8.36s, creating an inter-packet delay  
+of approximately 303 ms (spanning 8.36s to 8.66s).  
+
+This temporal discontinuity disrupts the ACK clock, leading to a visible
+throughput collapse in the corresponding time region.
 
 ### Observation
 
@@ -116,7 +121,8 @@ Inside the same trace:
 
 ---
 
-## 💥 From Packet Gap to Throughput Collapse
+## 💥 From Packet Gap to Throughput Collapse  
+A causal chain from packet-level timing to system-level behavior  
 ![Serialization Delay Observation](./figures/fig3-from-packet-gap-to-throughput-collapse.svg)  
 
 ## 💥 Core Explanation
