@@ -53,7 +53,7 @@ In this lab, we demonstrate something counterintuitive:
 
 ## 📊 Evidence 1 — Serialization Delay is Still Fixed
 
-![Serialization Delay Observation](./your-wireshark-image.png)
+![Serialization Delay Observation](./figures/fig1-throughput-collapse-packet-gap-evidence.svg)  
 
 ### Observation
 
@@ -65,6 +65,12 @@ In this lab, we demonstrate something counterintuitive:
 ```
 
 ✔ Matches theoretical serialization delay at 10 Mbps
+
+Although serialization delay remains constant (~1.23 ms),
+sporadic large inter-packet gaps (Δt ≫ Δt_serialization) emerge,
+breaking the continuity of the packet train.
+
+**These packet gaps fragment the ACK clock and directly lead to throughput collapse.**  
 
 ---
 
