@@ -116,6 +116,9 @@ Inside the same trace:
 
 ---
 
+## 💥 From Packet Gap to Throughput Collapse
+![Serialization Delay Observation](./figures/fig2-throughput-collapse-packet-gap-evidence.svg)  
+
 ## 💥 Core Explanation
 
 > **Throughput collapses not because packets are slower,
