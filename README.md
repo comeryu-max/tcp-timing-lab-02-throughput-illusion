@@ -117,7 +117,7 @@ Inside the same trace:
 ---
 
 ## 💥 From Packet Gap to Throughput Collapse
-![Serialization Delay Observation](./figures/fig3-from-packet-gap-to-throughput-collapse)  
+![Serialization Delay Observation](./figures/fig3-from-packet-gap-to-throughput-collapse.svg)  
 
 ## 💥 Core Explanation
 
