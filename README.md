@@ -93,11 +93,11 @@ Inside the same trace:
 
 ## 📊 Evidence 2 — Throughput Collapse
 
-![Throughput Graph](./your-throughput-image.png)
+![Serialization Delay Observation](./figures/fig2-throughput-collapse-packet-gap-evidence.svg)  
 
 ### Observation
 
-* Around **8.3 seconds**:
+* Around **8.36 seconds**:
 
   * Throughput drops to **< 2 Mbps**
 * Sustained oscillation at low throughput level
