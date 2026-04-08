@@ -51,7 +51,13 @@ In this lab, we demonstrate something counterintuitive:
 
 ---
 
-## 📊 Evidence 1 — Serialization Delay is Still Fixed
+## 📊 Evidence 1 — Throughput First Causal Break Point
+
+![Serialization Delay Observation](./figures/fig1-from-packet-gap-to-throughput-collapse-first-causal-break-point.svg)  
+
+---
+
+## 📊 Evidence 2 — Serialization Delay is Still Fixed & Throughput Collapse
 
 ![Serialization Delay Observation](./figures/fig1-throughput-collapse-packet-gap-evidence.svg)  
 
@@ -91,7 +97,7 @@ Inside the same trace:
 
 ---
 
-## 📊 Evidence 2 — Throughput Collapse
+## 📊 Evidence 3 — Throughput Collapse
 
 ![Serialization Delay Observation](./figures/fig2-throughput-collapse-packet-gap-evidence.svg)  
 Figure: A packet gap event begins at 8.36s, creating an inter-packet delay  
