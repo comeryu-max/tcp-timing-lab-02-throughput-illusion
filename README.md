@@ -2,6 +2,8 @@
 ## Serialization vs Throughput
 > Throughput drops. Serialization does not.  
 
+*Observed in a dual-flow competition scenario — see Experiment Scenario for details.*
+
 A measurement-driven study showing that serialization delay is fixed while throughput collapses due to time discontinuity (packet gaps).
 
 ---
